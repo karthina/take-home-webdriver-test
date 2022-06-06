@@ -6,13 +6,14 @@
   </listeners>
   
   <parameter name="OS" value="Mac"/>
-  <parameter name="isWebAutomation" value="true"/>
+  <parameter name="isWebAutomation" value="false"/>
   <parameter name="browser" value="Chrome"/>
   <parameter name="downloadDir" value="./src/test/resources/ToDownload"/>
   
   <test name="DotDash Automation Tests" preserve-order="true">
     <classes>
-    	<class name="com.arthi.automation.LoginSuccessTest"/>
+		<class name="com.arthi.automation.FirstTest"/>
+    	<!-- <class name="com.arthi.automation.LoginSuccessTest"/>
     	<class name="com.arthi.automation.CheckBoxTest"/>
     	<class name="com.arthi.automation.ContextMenuTest"/>
     	<class name="com.arthi.automation.DragAndDropTest"/>
@@ -22,7 +23,7 @@
     	<class name="com.arthi.automation.MouseHoverTest"/>
     	<class name="com.arthi.automation.NewWindowOpensTest"/>
     	<class name="com.arthi.automation.DynamicControlTest"/>
-    	<class name="com.arthi.automation.DynamicLoadingTest"/>
+    	<class name="com.arthi.automation.DynamicLoadingTest"/> -->
 
     </classes>
   </test> <!-- Test -->
