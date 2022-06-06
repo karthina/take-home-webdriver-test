@@ -13,9 +13,9 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      <!--  specify which version of java to build against -->
-    <maven.complier.source>1.8</maven.complier.source>
-    <maven.complier.target>1.8</maven.complier.target>
-    <java.version>1.8</java.version>
+    <maven.complier.source>11</maven.complier.source>
+    <maven.complier.target>11</maven.complier.target>
+    <java.version>11</java.version>
   </properties>
 
   <dependencies>
